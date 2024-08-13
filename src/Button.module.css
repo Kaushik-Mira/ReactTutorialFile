@@ -1,0 +1,9 @@
+.error {
+    color: #f00;
+}
+.warning {
+    color: rgba(194, 175, 69, 0.938);
+}
+.success {
+    color: #0f0;
+}

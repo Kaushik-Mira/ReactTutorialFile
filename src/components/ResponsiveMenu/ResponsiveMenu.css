@@ -1,0 +1,23 @@
+.menu {
+    width: 320px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 255);
+    left: -100%;
+    transition: 0.5s;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    padding: 10px 25px;
+    color: #fff;
+}
+.micon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.activeMenu {
+    left: 0%;
+}

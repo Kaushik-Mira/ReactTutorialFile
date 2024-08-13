@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppoins', sans-serif;
+}
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(133, 66, 113);
+    transition: 0.5s;
+}
+.App.dark {
+    background-color: #222;
+}
